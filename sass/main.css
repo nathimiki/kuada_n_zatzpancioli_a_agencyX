@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'oswaldmedium';
+  src: url("../font/oswald-medium-webfont.woff2") format("woff2"), url("../font/oswald-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotolight';
+  src: url("../font/roboto-light-webfont.woff2") format("woff2"), url("../font/roboto-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotomedium';
+  src: url("../font/roboto-medium-webfont.woff2") format("woff2"), url("../font/roboto-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (max-width: 750px) {
+  .row {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+.menu li {
+  background-color: #322f31;
+}
+
+.menu ul {
+  background-color: #ffffff;
+}
+
+/*.menu a{
+	color: $color-menu;
+	font-size: 14px;
+	font-family: 'neoubold';
+}
+
+.menu a:hover{
+	color: #fcc219;
+}*/
+.top-bar-right {
+  background-color: #ffffff;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.title-bar {
+  background-color: #ffffff;
+}
+
+#bannerImg {
+  width: 100%;
+  height: 100%;
+}
+
+.agencyBox {
+  background-color: #0191a4;
+}
+
+#agencyText {
+  width: 100%;
+  height: auto;
+}
+
+.designerBox {
+  background-color: #322f31;
+}
+
+#designerText {
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=main.css.map */

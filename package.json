@@ -1,0 +1,27 @@
+{
+  "name": "kuada_n_zatzpancioli_a_agencyx",
+  "version": "1.0.0",
+  "description": "Homework 1: Agency X (Multimedia Authoring 2)",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^5.6.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathimiki/kuada_n_zatzpancioli_a_agencyX.git"
+  },
+  "author": "Anna Carolina Zatz Pancioli and Nathalia Miki Kuada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathimiki/kuada_n_zatzpancioli_a_agencyX/issues"
+  },
+  "homepage": "https://github.com/nathimiki/kuada_n_zatzpancioli_a_agencyX#readme"
+}
