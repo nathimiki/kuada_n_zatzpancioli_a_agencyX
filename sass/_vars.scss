@@ -1,29 +1,28 @@
-//colors for the bg
+//colors
 $color-light-blue: #4fb7ca;
 $color-blue: #0191a4;
 $color-grey: #322f31;
+$color-button:#e34e74;
+$color-hover: #f2686d;
 
-//colors for the buttons
-$color-button: #e34e74;
-$color-button-hover: #f2686d;
+//buttons
+$font-button: 'robotomedium', Helvetica, Arial, 'sans serif';
 
-//color for the menu
+//menu
 $color-menu: white;
 $color-menu-icon: #322f31;
+$font-menu-size: 20px;
 
-//font for the titles
+//titles
 $font-title: 'oswaldmedium', Helvetica, Arial, 'sans serif';
 $mobile-font-title-size: 60px;
 $font-title-size: 42px;
 
-//font for text
+//text
 $font-text: 'robotolight', Helvetica, Arial, 'sans serif';
 $mobile-font-text-size: 24px;
 $font-text-size: 18px;
 
-//font for buttons
-$font-button: 'robotomedium', Helvetica, Arial, 'sans serif';
-
-//mobile portfolio images
-$mobile-image-widht: 100%;
-$mobile-image-height: 100%;
+//images
+$image-widht: 100%;
+$image-height: 100%;
