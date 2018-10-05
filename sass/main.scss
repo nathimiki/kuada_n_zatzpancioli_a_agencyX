@@ -68,15 +68,37 @@ margin-right: 0%;
     height: $image-height;
 }
 
+.bannerBox{
+    margin: 0;
+    padding: 0;
+}
+
 //the agency
 
 .agencyBox{
-    background-color: $color-blue;
+    background-color: $color-light-blue;
+    margin: 0;
+    padding: 0;
 }
 
 #agencyText{
     width: 100%;
     height: auto;
+    padding: 5%;
+}
+
+h1{
+    font-family: $font-title;
+    font-size: $mobile-font-title-size;
+    color: $color-white;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: $font-text;
+    font-size: $mobile-font-text-size;
+    color: $color-white;
+    text-align: justify;
 }
 
 
@@ -84,8 +106,35 @@ margin-right: 0%;
     background-color: $color-grey;
 }
 
-#designerText{
+.designerText{
     width: 100%;
     height: auto;
+    margin-top: 5%;
 }
+
+.designerText p{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#nathImg{
+    margin-top: 15%;
+}
+
+#annaImg{
+    margin-top: 15%;
+}
+
+#projectsText h1{
+    color: $color-light-blue;
+    padding: 5%;
+}
+
+.projectsBox{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 
