@@ -7,19 +7,23 @@ $color-grey: #322f31;
 $color-button: #e34e74;
 $color-button-hover: #f2686d;
 
+//color for the menu
+$color-menu: white;
+$color-menu-icon: #322f31;
+
 //font for the titles
 $font-title: 'oswaldmedium', Helvetica, Arial, 'sans serif';
+$mobile-font-title-size: 60px;
+$font-title-size: 42px;
 
 //font for text
 $font-text: 'robotolight', Helvetica, Arial, 'sans serif';
+$mobile-font-text-size: 24px;
+$font-text-size: 18px;
 
 //font for buttons
 $font-button: 'robotomedium', Helvetica, Arial, 'sans serif';
 
-//mobile portfolio images size
-$port-image-widht: 100%;
-$port-image-height: 100%;
-
-//mobile logo size
-$logo-image-width: 100%;
-$logo-image-height: 100%;
+//mobile portfolio images
+$mobile-image-widht: 100%;
+$mobile-image-height: 100%;
