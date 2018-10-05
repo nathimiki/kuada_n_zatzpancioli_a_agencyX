@@ -24,30 +24,68 @@
     font-style: normal;
 }
 
+@media screen and (max-width:  750px){
+    .row{
+margin-left: 0%;
+margin-right: 0%;
+    }
+}
+
+//menu
+
 .menu li{
-	background-color: transparent;
+	background-color: #322f31;
 }
 
 .menu ul{
-	background-color: transparent;
+	background-color: $color-white;
 }
 
-.menu a{
-	color: white;
+/*.menu a{
+	color: $color-menu;
 	font-size: 14px;
 	font-family: 'neoubold';
 }
 
 .menu a:hover{
 	color: #fcc219;
-}
+}*/
 
 .top-bar-right{
-	background-color: #1b1b1b;
+	background-color: $color-white;
 	margin-top: 3%;
 	margin-bottom: 3%;
 }
 
 .title-bar{
-	background-color: #1b1b1b;
+	background-color: $color-white;
 }
+
+//banner
+
+#bannerImg{
+    width: $image-widht;
+    height: $image-height;
+}
+
+//the agency
+
+.agencyBox{
+    background-color: $color-blue;
+}
+
+#agencyText{
+    width: 100%;
+    height: auto;
+}
+
+
+.designerBox{
+    background-color: $color-grey;
+}
+
+#designerText{
+    width: 100%;
+    height: auto;
+}
+
