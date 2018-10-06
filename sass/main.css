@@ -73,22 +73,32 @@
 
 @media screen and (max-width: 750px) {
   .top-bar-right {
-    margin-top: 13%;
+    margin-top: 11%;
   }
   .top-bar-right ul {
     display: inline-block;
   }
   .top-bar-right li {
-    padding-top: 10px;
+    padding-top: 11px;
+  }
+  .title-bar {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    padding-left: 4%;
   }
 }
 
-.title-bar {
-  background-color: #ffffff;
-  position: fixed;
-  width: 100%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+@media screen and (min-width: 750px) {
+  .title-bar {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -99,7 +109,7 @@
 }
 
 #mobileLogo {
-  margin-left: 25%;
+  margin-left: 30%;
 }
 
 #bannerImg {
@@ -116,33 +126,31 @@
   background-color: #4fb7ca;
   margin: 0;
   padding: 0;
-  height: 425px;
+  height: 170%;
 }
 
 #agencyText {
-  width: 100%;
-  height: auto;
   padding: 8%;
 }
 
 h1 {
   font-family: "oswaldmedium", Helvetica, Arial, "sans serif";
-  font-size: 50px;
+  font-size: 46px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 p {
   font-family: "robotolight", Helvetica, Arial, "sans serif";
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
   text-align: justify;
 }
 
 .designerBox {
   background-color: #322f31;
-  height: 425px;
-  padding-top: 12px;
+  padding-top: 3%;
+  padding-bottom: 2.2%;
 }
 
 .designerText {
@@ -153,7 +161,12 @@ p {
 
 .designerText p {
   font-size: 17px;
-  padding: 5%;
+  padding: 3%;
+}
+
+.designerBox p {
+  padding-top: 0;
+  padding-bottom: 1px;
 }
 
 #nathImg {
@@ -162,7 +175,7 @@ p {
 }
 
 #annaImg {
-  margin-top: 15%;
+  margin-top: 13%;
   margin-left: 20%;
 }
 
@@ -177,13 +190,24 @@ p {
 }
 
 .contactBox {
-  background-color: #322f31;
   margin: 0;
   padding: 0;
 }
 
-#contactText {
-  padding: 5%;
+#contactUs {
+  border: 1px solid #000;
+  background-color: #322f31;
+  padding: 2%;
+}
+
+@media screen and (max-width: 750px) {
+  #contactUs h1 {
+    padding-left: 1%;
+  }
+}
+
+#contactText h1 {
+  margin-left: 1.5%;
 }
 
 label {
@@ -201,5 +225,47 @@ label {
 
 .button:hover {
   background-color: #f2686d;
+}
+
+@media screen and (max-width: 750px) {
+  #footerBox {
+    padding: 5%;
+  }
+  #connectText {
+    padding-top: 6%;
+    padding-left: 10%;
+  }
+  #socialMedia {
+    padding-top: 4%;
+  }
+}
+
+#connectText p {
+  color: #e34e74;
+  font-family: "oswaldmedium", Helvetica, Arial, "sans serif";
+  font-size: 28px;
+}
+
+@media screen and (min-width: 750px) {
+  #socialMedia a {
+    padding-left: 4%;
+  }
+  #footerBox {
+    padding: 2%;
+  }
+  #footerLogo {
+    margin-left: -60%;
+    padding-top: 10px;
+  }
+  #socialMedia {
+    margin-right: -50px;
+  }
+  #connectText {
+    padding-top: 10px;
+    margin-left: 50px;
+  }
+  #connectText p {
+    margin-left: 80px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
