@@ -2,24 +2,24 @@
 
 @font-face {
     font-family: 'oswaldmedium';
-    src: url('../font/oswald-medium-webfont.woff2') format('woff2'),
-         url('../font/oswald-medium-webfont.woff') format('woff');
+    src: url('../fonts/oswald-medium-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'robotolight';
-    src: url('../font/roboto-light-webfont.woff2') format('woff2'),
-         url('../font/roboto-light-webfont.woff') format('woff');
+    src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'robotomedium';
-    src: url('../font/roboto-medium-webfont.woff2') format('woff2'),
-         url('../font/roboto-medium-webfont.woff') format('woff');
+    src: url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -33,12 +33,31 @@ margin-right: 0%;
 
 //menu
 
+#menuContainer{
+    background-color: $color-white;
+    padding: 0;
+    font-family: $font-text;
+    font-size: $font-menu-size;
+}
+
+#menuContainer a{
+    color: $color-grey;
+}
+
+#menuContainer a:hover{
+    color: $color-hover;
+}
+
 .menu li{
-	background-color: #322f31;
+	background-color: $color-white;
 }
 
 .menu ul{
 	background-color: $color-white;
+}
+
+.menu-icon {
+    color: $color-grey;
 }
 
 /*.menu a{
@@ -52,13 +71,43 @@ margin-right: 0%;
 }*/
 
 .top-bar-right{
-	background-color: $color-white;
-	margin-top: 3%;
-	margin-bottom: 3%;
+    background-color: $color-white;
+    position: fixed;
+    width: 100%;
+    padding: 1.5%;
+	/*margin-top: 3%;
+	margin-bottom: 3%;*/
+}
+
+@media screen and (max-width: 750px){
+    .top-bar-right{
+        margin-top:13%;
+    }
+    .top-bar-right ul{
+        display: inline-block;
+    }
+    .top-bar-right li{
+        padding-top:10px;
+    }
 }
 
 .title-bar{
-	background-color: $color-white;
+    background-color: $color-white;
+    position: fixed;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@media screen and (min-width:  750px){
+    #menuText{
+        margin-left: 27%;
+        margin-top:-3px;
+    }
+}
+
+#mobileLogo{
+    margin-left: 25%;
 }
 
 //banner
@@ -79,55 +128,63 @@ margin-right: 0%;
     background-color: $color-light-blue;
     margin: 0;
     padding: 0;
+    height: 425px;
 }
 
 #agencyText{
     width: 100%;
     height: auto;
-    padding: 5%;
+    padding: 8%;
 }
 
 h1{
     font-family: $font-title;
-    font-size: $mobile-font-title-size;
+    font-size: 50px;
     color: $color-white;
     text-transform: uppercase;
 }
 
 p{
     font-family: $font-text;
-    font-size: $mobile-font-text-size;
+    font-size: 18px;
     color: $color-white;
     text-align: justify;
 }
 
+//designers
 
 .designerBox{
     background-color: $color-grey;
+    height: 425px;
+    padding-top: 12px;
 }
 
 .designerText{
     width: 100%;
     height: auto;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .designerText p{
-    font-size: 20px;
-    padding: 5px;
+    font-size: 17px;
+    padding: 5%;
 }
 
 #nathImg{
     margin-top: 15%;
+    margin-left: 20%;
 }
 
 #annaImg{
     margin-top: 15%;
+    margin-left: 20%;
 }
 
-#projectsText h1{
+//project
+
+#projectsTitle h1{
     color: $color-light-blue;
-    padding: 5%;
+    padding: 3.5% 0% 1% 2%;
 }
 
 .projectsBox{
@@ -135,6 +192,32 @@ p{
     padding: 0;
 }
 
+//contact us
 
+.contactBox{
+    background-color: $color-grey;
+    margin: 0;
+    padding: 0;
+}
 
+#contactText {
+    padding: 5%;
+}
+
+label{
+    color: $color-white;
+    font-family: $font-text;
+    font-size: 16px;
+}
+
+.button{
+    background-color: $color-button;
+    width: 100%;
+    font-family: $font-button;
+    font-size: 16px;
+}
+
+.button:hover{
+    background-color: $color-hover;
+}
 

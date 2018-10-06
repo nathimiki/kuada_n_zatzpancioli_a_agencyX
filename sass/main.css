@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'oswaldmedium';
-  src: url("../font/oswald-medium-webfont.woff2") format("woff2"), url("../font/oswald-medium-webfont.woff") format("woff");
+  src: url("../fonts/oswald-medium-webfont.woff2") format("woff2"), url("../fonts/oswald-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'robotolight';
-  src: url("../font/roboto-light-webfont.woff2") format("woff2"), url("../font/roboto-light-webfont.woff") format("woff");
+  src: url("../fonts/roboto-light-webfont.woff2") format("woff2"), url("../fonts/roboto-light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'robotomedium';
-  src: url("../font/roboto-medium-webfont.woff2") format("woff2"), url("../font/roboto-medium-webfont.woff") format("woff");
+  src: url("../fonts/roboto-medium-webfont.woff2") format("woff2"), url("../fonts/roboto-medium-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -26,12 +26,31 @@
   }
 }
 
+#menuContainer {
+  background-color: #ffffff;
+  padding: 0;
+  font-family: "robotolight", Helvetica, Arial, "sans serif";
+  font-size: 20px;
+}
+
+#menuContainer a {
+  color: #322f31;
+}
+
+#menuContainer a:hover {
+  color: #f2686d;
+}
+
 .menu li {
-  background-color: #322f31;
+  background-color: #ffffff;
 }
 
 .menu ul {
   background-color: #ffffff;
+}
+
+.menu-icon {
+  color: #322f31;
 }
 
 /*.menu a{
@@ -45,12 +64,42 @@
 }*/
 .top-bar-right {
   background-color: #ffffff;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  position: fixed;
+  width: 100%;
+  padding: 1.5%;
+  /*margin-top: 3%;
+	margin-bottom: 3%;*/
+}
+
+@media screen and (max-width: 750px) {
+  .top-bar-right {
+    margin-top: 13%;
+  }
+  .top-bar-right ul {
+    display: inline-block;
+  }
+  .top-bar-right li {
+    padding-top: 10px;
+  }
 }
 
 .title-bar {
   background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+@media screen and (min-width: 750px) {
+  #menuText {
+    margin-left: 27%;
+    margin-top: -3px;
+  }
+}
+
+#mobileLogo {
+  margin-left: 25%;
 }
 
 #bannerImg {
@@ -67,58 +116,90 @@
   background-color: #4fb7ca;
   margin: 0;
   padding: 0;
+  height: 425px;
 }
 
 #agencyText {
   width: 100%;
   height: auto;
-  padding: 5%;
+  padding: 8%;
 }
 
 h1 {
   font-family: "oswaldmedium", Helvetica, Arial, "sans serif";
-  font-size: 60px;
+  font-size: 50px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 p {
   font-family: "robotolight", Helvetica, Arial, "sans serif";
-  font-size: 24px;
+  font-size: 18px;
   color: #ffffff;
   text-align: justify;
 }
 
 .designerBox {
   background-color: #322f31;
+  height: 425px;
+  padding-top: 12px;
 }
 
 .designerText {
   width: 100%;
   height: auto;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .designerText p {
-  font-size: 20px;
-  padding: 5px;
+  font-size: 17px;
+  padding: 5%;
 }
 
 #nathImg {
   margin-top: 15%;
+  margin-left: 20%;
 }
 
 #annaImg {
   margin-top: 15%;
+  margin-left: 20%;
 }
 
-#projectsText h1 {
+#projectsTitle h1 {
   color: #4fb7ca;
-  padding: 5%;
+  padding: 3.5% 0% 1% 2%;
 }
 
 .projectsBox {
   margin: 0;
   padding: 0;
+}
+
+.contactBox {
+  background-color: #322f31;
+  margin: 0;
+  padding: 0;
+}
+
+#contactText {
+  padding: 5%;
+}
+
+label {
+  color: #ffffff;
+  font-family: "robotolight", Helvetica, Arial, "sans serif";
+  font-size: 16px;
+}
+
+.button {
+  background-color: #e34e74;
+  width: 100%;
+  font-family: "robotomedium", Helvetica, Arial, "sans serif";
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #f2686d;
 }
 /*# sourceMappingURL=main.css.map */

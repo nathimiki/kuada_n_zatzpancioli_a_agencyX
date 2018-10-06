@@ -4467,12 +4467,12 @@ a.thumbnail {
     display: block;
     width: 100%;
     height: 2px;
-    background: #fefefe;
-    box-shadow: 0 7px 0 #fefefe, 0 14px 0 #fefefe;
+    background: #322f31;
+    box-shadow: 0 7px 0 #322f31, 0 14px 0 #322f31;
     content: ''; }
   .menu-icon:hover::after {
-    background: #cacaca;
-    box-shadow: 0 7px 0 #cacaca, 0 14px 0 #cacaca; }
+    background: #322f31;
+    box-shadow: 0 7px 0 #322f31, 0 14px 0 #322f31; }
 
 .menu-icon.dark {
   position: relative;
