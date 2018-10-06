@@ -29,6 +29,7 @@
 margin-left: 0%;
 margin-right: 0%;
     }
+
 }
 
 //menu
@@ -111,8 +112,8 @@ margin-right: 0%;
 
 @media screen and (min-width:  750px){
     #menuText{
-        margin-left: 27%;
-        margin-top:-3px;
+        margin-left: 25%;
+        margin-top: 10px;
     }
 }
 
@@ -291,5 +292,14 @@ label{
         margin-left: 80px;
     }
 }
+
+ul li{
+    list-style: none;
+  }
+  
+  .box-container {
+    padding: 0;
+    margin: 0;
+  }
 
 

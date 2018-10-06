@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <title>An Infinitum</title>
 <link href="css/foundation.css" rel="stylesheet" type="text/css">
-<link href="sass/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/glightbox.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,10 +17,10 @@
             <img src="images/logo.png" class="show-for-small-only" alt="Logo" id="mobileLogo">
             </div>
             <div class="top-bar-right" id="mainMenu">
-            <ul class="menu">
-                <li class="hide-for-small-only"><img src="images/logo.png" alt="Logo" id="logoImg"></li>
+            <ul class="menu nav">
+                <li class="hide-for-small-only"><a href="index.html"><img src="images/logo.png" alt="Logo" id="logoImg"></a></li>
                     <ul class="menu" id="menuText">
-                        <li><a href="#banner1">THE AGENCY</a></li>
+                        <li><a href="#theAgency">THE AGENCY</a></li>
                         <li><a href="#projects">PROJECTS</a></li>
                         <li><a href="#contactUs">CONTACT US</a></li>
                     </ul>
@@ -68,22 +69,61 @@
     </section>
 
     <section class="row" id="projects">
-        <div class="small-12 medium-12 large-12 columns" id="projectsTitle">
-            <h1>Projects</h1>
-        </div>
-        <div class="small-12 medium-6 large-6 columns projectsBox">
-            <div id="projectsText">
-                <img src="images/mobile_eco_culinarius.jpg" alt="Eco" id="m_ecoImg" class="show-for-small-only">
-                <img src="images/mobile_best_pizza.jpg" alt="Pizza" id="m_pizzaImg" class="show-for-small-only">
-                <img src="images/mobile_lucas_vipers.jpg" alt="Vipers" id="m_vipersImg" class="show-for-small-only">
-                <img src="images/eco_culinarius.jpg" alt="Eco" id="ecoImg" class="hide-for-small-only">
+            <div class="small-12 medium-12 large-12 columns" id="projectsTitle">
+                <h1>Projects</h1>
             </div>
-        </div>
-        <div class="medium-6 large-6 columns projectsBox">
-            <img src="images/best_pizza.jpg" alt="Pizza" id="pizzaImg" class="hide-for-small-only">
-            <img src="images/lucas_vipers.jpg" alt="Vipers" id="vipersImg" class="hide-for-small-only">
-        </div>
-    </section>
+            <ul class="box-container three-cols">
+            <div class="small-12 medium-6 large-6 columns projectsBox">
+                <div id="projectsText">            
+    
+                <li class="box">
+                <a href="images/eco_details.jpg" class="glightbox">
+                <img src="images/mobile_eco_culinarius.jpg" alt="Eco" id="m_ecoImg" class="show-for-small-only">
+                </a>
+                </li>
+    
+                <li class="box">
+                <a href="images/mobile_best_pizza.jpg" class="glightbox">
+                <img src="images/mobile_best_pizza.jpg" alt="Pizza" id="m_pizzaImg" class="show-for-small-only">
+                </a>
+                </li>
+    
+                <li class="box">
+                <a href="images/mobile_lucas_vipers.jpg" class="glightbox">
+                <img src="images/mobile_lucas_vipers.jpg" alt="Vipers" id="m_vipersImg" class="show-for-small-only"> 
+                </a>
+                </li>
+                
+    
+                
+                <li class="box">
+                <a href="images/eco_details.jpg" class="glightbox">
+                <img src="images/eco_culinarius.jpg" alt="Eco" id="ecoImg" class="hide-for-small-only">
+                </a>
+                </li>
+                </div>
+    
+                </div>
+    
+                <div class="medium-6 large-6 columns projectsBox">
+    
+                <li class="box">
+                <a href="images/mobile_best_pizza.jpg" class="glightbox">
+                <img src="images/best_pizza.jpg" alt="Pizza" id="pizzaImg" class="hide-for-small-only">
+                </a>
+                </li>
+    
+                <li class="box">
+                <a href="images/mobile_lucas_vipers.jpg" class="glightbox">
+                <img src="images/lucas_vipers.jpg" alt="Vipers" id="vipersImg" class="hide-for-small-only">
+                </a>
+                </li>
+    
+            </ul>
+    
+            </div>
+      
+        </section>
 
     <section class="row" id="contactUs">
             <div class="small-12 medium-12 large-12 columns contactBox">
@@ -116,7 +156,7 @@
 
     <footer class="row" id="footerBox">
             <div class="small-12 medium-5 large-5 columns text-center" id="footerImg">
-                <img src="images/logo.png" alt="Logo" id="footerLogo">   
+                    <a href="index.html"><img src="images/logo.png" alt="Logo" id="footerLogo"></a>   
             </div>
             <div class="small-5 medium-3 large-3 columns" id="connectText">
                 <p>CONNECT</p>
@@ -131,9 +171,12 @@
 
 
 	<script src="js/vendor/jquery.js"></script>
- 	<script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/glightbox.min.js"></script>
  	<script src="js/vendor/foundation.js"></script>
-     <script src="js/app.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/gallery.js"></script>
+
      
 </body>
 
